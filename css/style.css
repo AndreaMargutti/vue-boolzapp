@@ -10,14 +10,12 @@
 .container {
     max-width: 1080px;
     margin: 0 auto;
-    margin-top: 20px;
-    height: 100px;
-    background-color: dodgerblue;
 }
 
 /* # generals*/
 
 body {
+  padding-top: 30px;
   background: linear-gradient(180deg, #009688 0 15vh,  #D9DBD4 0 80vh);
   height: 100vh;
 }
