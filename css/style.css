@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+  }
 
 /* # utilities*/
 
@@ -18,8 +18,12 @@
   display: flex;
 }
 
-.between {
+.f-between {
   justify-content: space-between;
+}
+
+.f-center {
+  align-items: center;
 }
 
 /* # generals*/
@@ -41,7 +45,8 @@ body {
 
 .x-side {
 background-color: #EAEAEA;
-  height: 10vh;
+height: 10vh;
+padding: 10px;
 }
 
 /* chat section */
@@ -53,14 +58,13 @@ background-color: #EAEAEA;
 /* icons */
 i {
   color: #B1B1B1;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 /* profile pic */
 
 .prof-pic {
   height: 70px;
-  width: 70px;
   background-size: cover;
 }
 
