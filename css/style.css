@@ -108,3 +108,18 @@ img{
   color: #6D9A9D;
   text-decoration: underline;
 }
+
+/* search bar */
+
+#search-bar {
+  padding: 10px 5px;
+}
+
+.input-search {
+  background-color: white;
+  padding: 5px;
+}
+
+.input-search > span {
+  color: #A29BA7;
+}
