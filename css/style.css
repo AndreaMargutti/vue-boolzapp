@@ -18,6 +18,10 @@
   display: flex;
 }
 
+.col {
+  flex-direction: column;
+}
+
 .f-between {
   justify-content: space-between;
 }
@@ -37,9 +41,8 @@
 /* # generals*/
 
 body {
-  padding-top: 50px;
+  padding: 30px 0;
   background: linear-gradient(180deg, #009688 0 15vh,  #D9DBD4 0 80vh);
-  height: 100vh;
 }
 
 /* # Main */

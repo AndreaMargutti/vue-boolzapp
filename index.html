@@ -45,12 +45,15 @@
                     </div>
                 </div>
                 <!--Start chat-list section-->
-                <div class="x-side  d-flex f-between f-center">
+                <div class="x-side  d-flex col" v-for="contact in contacts">
                     <div class="prof-pic d-flex">
-                        <img src="img/avatar_io.png" alt="myself-pic">
-                        <span class="contact-name">Sofia</span>
+                        <img v-bind:src="contact.avatar" alt="myself-pic">
+                        <span class="contact-name">
+                            {{contact.name}}
+                        </span>
                     </div>
                 </div>
+                
             </section>
             <!--Start of chat-->
             <section id="chat">
