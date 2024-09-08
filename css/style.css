@@ -52,8 +52,8 @@ body {
 }
 
 .x-side {
-height: 10vh;
-padding: 10px;
+  height: 10vh;
+  padding: 10px;
 }
 
 /* chat section */
@@ -122,4 +122,9 @@ img{
 
 .input-search > span {
   color: #A29BA7;
+}
+
+/* chat list */
+.contact-name {
+  margin-left: 20px;
 }
