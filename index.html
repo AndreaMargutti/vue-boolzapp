@@ -16,7 +16,7 @@
         <div class="container d-flex">
             <!--Start of Sidebar-->
             <section id="sidebar">
-                <div class="x-side d-flex f-between f-center">
+                <div class="x-side bg-gray d-flex f-between f-center">
                     <div class="prof-pic d-flex f-center">
                         <img src="img/avatar_io.png" alt="myself-pic">
                         <span>Sofia</span>
@@ -28,11 +28,36 @@
                     </div>
                 </div>
                 <!--Push Notification-->
+                <div class="x-side bg-azure d-flex f-center">
+                    <div class="push-icon d-flex f-center">
+                        <i class="fa-regular fa-bell-slash fa-lg"></i>
+                    </div>
+                    <div class="push-text">
+                        <h5>Ricevi notifiche di nuovi messaggi</h5>
+                        <p>Attiva notifiche desktop</p>
+                    </div>
+                </div>
+                <!--Search Bar-->
+                <div class="bg-gray" id="search-bar">
+                    <div class="input-search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <span>Cerca o inizia una nuova chat</span>
+                    </div>
+                </div>
+                <!--Start chat-list section-->
+                <div class="x-side  d-flex col" v-for="contact in contacts">
+                    <div class="prof-pic d-flex">
+                        <img v-bind:src="contact.avatar" alt="myself-pic">
+                        <span class="contact-name">
+                            {{contact.name}}
+                        </span>
+                    </div>
+                </div>
                 
             </section>
             <!--Start of chat-->
             <section id="chat">
-                <div class="x-side d-flex f-between f-center">
+                <div class="x-side bg-gray d-flex f-between f-center">
                     <div>
                         <div class="prof-pic d-flex f-center">
                             <img src="img/avatar_1.png" alt="michele">
