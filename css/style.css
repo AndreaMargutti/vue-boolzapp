@@ -22,6 +22,10 @@
   flex-direction: column;
 }
 
+.rev-col {
+  flex-direction: re;
+}
+
 .f-between {
   justify-content: space-between;
 }
@@ -155,14 +159,24 @@ img{
 
 /* messages */
 
-.message {
+#message-list {
+  margin: 10px;
+}
 
+.message {
+  min-height: 35px;
+  padding: 5px;
+  border-radius: 15px;
+  padding-right: 50px;
+  align-content: center;
 }
 
 .sent {
   background-color: #D5F9BA;
+  align-self: flex-end;
 }
 
 .received {
   background-color: white;
+  align-self: flex-start;
 }
