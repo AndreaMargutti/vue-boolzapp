@@ -72,9 +72,9 @@
                 </div>
                 <!--Message Section-->
                 <div id="message-list" class="d-flex col">
-                    <span class="message sent">Messaggio Inviato</span>
-                    <span class="message received">
-                        Messaggio Ricevuto
+                    <span class="message" v-for="messageObj in contacts[contactIndex].messages"
+                    :class="messageObj.status">
+                        {{ messageObj.message }}
                     </span>
                 </div>
                 <!--Message Bar-->
