@@ -128,8 +128,9 @@ img{
   padding: 5px;
 }
 
-.input-search > span {
-  color: #A29BA7;
+.input-search > input {
+  width: 90%;
+  border: none;
 }
 
 /* chat list */
