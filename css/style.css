@@ -86,7 +86,7 @@ i {
 .push-icon > i {
   position: relative;
   top: 0;
-  left: 12px;
+  left: 0;
 }
 
 /* profile pic */
