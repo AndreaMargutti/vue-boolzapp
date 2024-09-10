@@ -63,12 +63,13 @@ body {
 #chat {
   flex-basis: 70%;
   background-image: url(../img/mine.png);
+  position: relative;
 }
 
 /* icons */
 i {
   color: #B1B1B1;
-  margin-right: 20px;
+  margin: 0 10px;
 }
 
 .push-icon {
@@ -130,4 +131,24 @@ img{
 /* chat list */
 .contact-name {
   margin-left: 20px;
+}
+
+/* send bar */
+#send-bar {
+  height: 100px;
+  padding: 20px;
+  background-color: #F3EEEA;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+#text-bar {
+  height: 80%;
+  width: 100%;
+  background-color: white;
+  line-height: 40px;
+  padding: 5px;
+  color: #ABABAB;
 }
