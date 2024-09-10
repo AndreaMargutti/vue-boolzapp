@@ -82,7 +82,7 @@
                 <div id="send-bar" class="d-flex f-center">
                     <i class="fa-regular fa-face-smile fa-2x"></i>
                     <input type="text" id="text-bar" placeholder="Scrivi un messaggio" v-model="newText"
-                    keyup.enter="addMessage(newText)">
+                    @keyup.enter="addMessage(newText)">
                     <i class="fa-solid fa-microphone fa-2x"></i>
                 </div>
             </section>
