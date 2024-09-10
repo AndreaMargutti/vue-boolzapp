@@ -176,7 +176,20 @@ createApp({
             this.contactIndex = index;
         },
 
+        //ottieni ok come risposta dal computer
+        addReply() {
+            this.contacts[this.contactIndex].messages.push(
+                {
+                    date: '',
+                    message: 'ok',
+                    status: 'received'
+                }
+            );
+        },
+
+        //funzione di invio nuovo messaggio e ricevo risposta
         addMessage(text) {
+            //invio del messaggio
             this.contacts[this.contactIndex].messages.push(
                 {
                     date: '',
@@ -184,8 +197,11 @@ createApp({
                     status: 'sent'
                 }
             );
-
+            //puliso input
             this.newText = '';
+
+            //chiama la risposta dopo un secondo dall'invio del tuo messaggio
+            setTimeout(this.addReply, 1000);
         }
     }
 }).mount('#app')
