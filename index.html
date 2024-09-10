@@ -45,23 +45,23 @@
                     </div>
                 </div>
                 <!--Start chat-list section-->
-                <div class="x-side  d-flex col" v-for="contact in contacts">
-                    <div class="prof-pic d-flex">
-                        <img v-bind:src="contact.avatar" alt="myself-pic">
-                        <span class="contact-name">
-                            {{contact.name}}
-                        </span>
-                    </div>
-                </div>
-                
+                    <div class="x-side  d-flex col" v-for="(contact, contactsIndex) in contacts"
+                    @click="setActiveIndex(contactsIndex)">
+                        <div class="prof-pic d-flex">
+                            <img v-bind:src="contact.avatar" alt="myself-pic">
+                            <span class="contact-name">
+                                {{contact.name}}
+                            </span>
+                        </div>
+                    </div>                
             </section>
             <!--Start of chat-->
             <section id="chat">
                 <div class="x-side bg-gray d-flex f-between f-center">
                     <div>
                         <div class="prof-pic d-flex f-center">
-                            <img src="img/avatar_1.png" alt="michele">
-                            <div>Michele</div>
+                            <img :src="contacts[contactIndex].avatar" alt="michele">
+                            <div>{{contacts[contactIndex].name}}</div>
                         </div>
                     </div>
                     <div>
