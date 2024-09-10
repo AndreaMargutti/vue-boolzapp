@@ -152,3 +152,17 @@ img{
   padding: 5px;
   color: #ABABAB;
 }
+
+/* messages */
+
+.message {
+
+}
+
+.sent {
+  background-color: #D5F9BA;
+}
+
+.received {
+  background-color: white;
+}
