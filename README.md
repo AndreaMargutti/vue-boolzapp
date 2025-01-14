@@ -10,3 +10,6 @@ Il progetto nasce come replica di Whatsapp Web, svolto durante i mesi del corso 
 - Nel file `script.js` contenuto nella cartella 'js' invece sono presenti i dati dell'applicazione e sono anche presenti un paio di metodi:
     1. Metodo per rendere possibile il cambio di chat
     2. Metodo per inviare un messaggio e ricevere un 'ok' come risposta
+
+# Credits
+I crediti del progetto sono da dare ad **Andrea Margutti** tramite *Boolean*.
