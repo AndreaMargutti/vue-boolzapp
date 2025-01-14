@@ -11,5 +11,19 @@ Il progetto nasce come replica di Whatsapp Web, svolto durante i mesi del corso 
     1. Metodo per rendere possibile il cambio di chat
     2. Metodo per inviare un messaggio e ricevere un 'ok' come risposta
 
+## Processo di Realizzazione
+
+### Milestone-1
+- Replica della grafica della pagina web di Whatsapp tramite HTML e CSS.
+- Visualizzazione dinamica della lista dei contatti tramite vue
+
+### Milestone-2
+- Visualizzazione Dinamica della lista dei messaggi tramite vue
+- Click sul contatto apre la sua chat
+
+### Milestone-3
+- Possibilita di inviare un messaggio e visualizzarlo in chat
+- Implementazione risposta predefinitia 'ok' da parte della CPU.
+
 # Credits
 I crediti del progetto sono da dare ad **Andrea Margutti** tramite *Boolean*.
